@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table task</title>
+</head>
+<style>
+  body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+  }
+    table,tr,th,td{
+        text-align: center;
+        padding: 8px;
+        border:1px solid black;
+        border-collapse: collapse;
+        height: 100%;
+        width: auto;
+       
+    }
+</style>
+<body>
+    <table style="width:30%">
+        <h1>health chart</h1>
+        <tr>
+            <th rowspan="2">state of health</th>
+            <th colspan="2">fasting value</th>
+            <th>after eating</th>
+        </tr>
+        <tr>
+            <th>Minimum</th>
+            <th>maximum</th>
+            <th>2 hours after eating</th>
+        </tr>
+        <tr>
+            <td>healthy</td>
+            <td>70</td>
+            <td>100</td>
+            <td>less  than 140</td>
+        </tr>
+        <tr>
+            <td>pre-diabetes</td>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+        <tr>
+            <td>diabetes</td>
+            <td>more than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+    </table>
+</body>
+</html>
